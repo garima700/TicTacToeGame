@@ -102,7 +102,7 @@ if(win[1]===win[5] && win[7]===win[5])
  return;
 }
 
-else if(win[0]==win[3] && win[3]==win[6])
+else if(win[0]===win[3] && win[3]===win[6])
 {
   if(win[0]==="0"||  win[0]==="X")
   {
@@ -111,7 +111,7 @@ else if(win[0]==win[3] && win[3]==win[6])
  return;
 }
 
-else if(win[2]==win[5] && win[5]==win[8])
+else if(win[2]===win[5] && win[5]===win[8])
 {
   
   if(win[2]==="0"||  win[2]==="X")
